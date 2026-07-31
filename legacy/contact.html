@@ -21,7 +21,7 @@
       <a href="projects.html">Projects</a>
       <a href="contact.html" class="active-link">Contact</a>
     </div>
-    <a href="contact.html" class="nav-cta">Hire Me</a>
+    <a href="contact.html#contact-form" class="nav-cta">Book Free Consultation</a>
   </nav>
 </header>
 
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <form class="contact-form" id="contact-form" data-reveal action="mailto:hello@iasolutions.com" method="post" enctype="text/plain">
+<form class="contact-form" id="contact-form" data-reveal action="mailto:hello@iasolutions.com" method="post" enctype="text/plain">
       <div class="form-field">
         <label for="name">Your Name</label>
         <input id="name" name="name" type="text" autocomplete="name" required>
@@ -73,7 +73,10 @@
         <label for="message">Your Message</label>
         <textarea id="message" name="message" required></textarea>
       </div>
-      <button type="submit">Send Message</button>
+      <div class="form-actions">
+        <button type="submit">Send Message</button>
+        <button type="button" class="btn-secondary gmail-open-btn">Send via Gmail</button>
+      </div>
       <p class="form-status" role="status" aria-live="polite"></p>
     </form>
   </div>

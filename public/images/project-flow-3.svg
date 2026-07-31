@@ -1,0 +1,25 @@
+<svg width="600" height="360" viewBox="0 0 600 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#534AB7"/>
+      <stop offset="100%" stop-color="#7F77DD"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="24" fill="url(#c)"/>
+  <g opacity="0.85">
+    <rect x="48" y="80" width="140" height="74" rx="18" fill="#fff"/>
+    <rect x="230" y="160" width="180" height="84" rx="22" fill="#fff"/>
+    <rect x="430" y="90" width="120" height="60" rx="18" fill="#fff"/>
+    <path d="M175 123C190 122 210 122 234 122" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M310 190C330 185 350 175 370 168" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M250 175C270 168 292 160 316 152" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="118" cy="117" r="16" fill="#fff"/>
+    <circle cx="320" cy="200" r="16" fill="#fff"/>
+    <circle cx="505" cy="120" r="16" fill="#fff"/>
+  </g>
+  <g fill="#534AB7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+    <text x="118" y="114">Plan</text>
+    <text x="320" y="197">Build</text>
+    <text x="505" y="117">Launch</text>
+  </g>
+</svg>
