@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import CalendlyButton from "./CalendlyButton";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,9 +54,9 @@ export default function Header() {
             Contact
           </Link>
         </div>
-        <Link href="/contact#contact-form" className="nav-cta">
+        <CalendlyButton className="nav-cta">
           Book Free Consultation
-        </Link>
+        </CalendlyButton>
       </nav>
     </header>
   );

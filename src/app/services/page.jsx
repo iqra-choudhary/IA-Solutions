@@ -15,86 +15,106 @@ export default function Services() {
 </section>
 
 <section className="section">
-  <div className="wrap" style={{"maxWidth":"820px"}}>
-
-    <div className="service-detail" data-reveal>
-      <div className="skill-icon">⚡</div>
-      <div>
-        <h3>Power Automate & Power Platform</h3>
-        <p>End-to-end business process automation built on Microsoft's Power Platform — connecting your everyday tools so information moves without manual handling.</p>
-        <ul>
-          <li>Approval flows and notification systems</li>
-          <li>Data sync across apps (SharePoint, Excel, Outlook, Teams)</li>
-          <li>Custom triggers and scheduled automations</li>
-        </ul>
+  <div className="wrap">
+    <div className="sg-v3">
+      
+      {/* Service 1 */}
+      <div className="sc-v3" data-reveal>
+        <div className="sc-v3-img" style={{backgroundImage: "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop')"}}>
+          <div className="sc-v3-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        </div>
+        <div className="sc-v3-content">
+          <h3>Power Automate & Power Platform</h3>
+          <p>End-to-end business process automation built on Microsoft's Power Platform — connecting your everyday tools so information moves without manual handling.</p>
+          <div className="sc-v3-tags">
+            <span>Power Automate</span>
+            <span>SharePoint</span>
+            <span>Teams</span>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div className="service-detail" data-reveal>
-      <div className="skill-icon">🤖</div>
-      <div>
-        <h3>RPA — Cloud & Desktop Flows</h3>
-        <p>Architecting robotic process automation that handles repetitive tasks end-to-end, so your team can focus on higher-value work.</p>
-        <ul>
-          <li>Desktop flow automation for legacy or non-API systems</li>
-          <li>Cloud flow orchestration for scalable automation</li>
-          <li>Scheduled, unattended task execution</li>
-        </ul>
+      {/* Service 2 */}
+      <div className="sc-v3" data-reveal>
+        <div className="sc-v3-img" style={{backgroundImage: "url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop')"}}>
+          <div className="sc-v3-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+        </div>
+        <div className="sc-v3-content">
+          <h3>RPA — Cloud & Desktop Flows</h3>
+          <p>Architecting robotic process automation that handles repetitive tasks end-to-end, so your team can focus on higher-value work.</p>
+          <div className="sc-v3-tags">
+            <span>Desktop Flows</span>
+            <span>Cloud Flows</span>
+            <span>Automation</span>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div className="service-detail" data-reveal>
-      <div className="skill-icon">🔗</div>
-      <div>
-        <h3>API Integrations</h3>
-        <p>Connecting systems that don't naturally talk to each other, with reliability built in from the start.</p>
-        <ul>
-          <li>REST API integrations across platforms</li>
-          <li>Robust error handling and retry logic</li>
-          <li>Secure authentication and data handling</li>
-        </ul>
+      {/* Service 3 */}
+      <div className="sc-v3" data-reveal>
+        <div className="sc-v3-img" style={{backgroundImage: "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600&auto=format&fit=crop')"}}>
+          <div className="sc-v3-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4l16 16M4 20 20 4"/></svg></div>
+        </div>
+        <div className="sc-v3-content">
+          <h3>API Integrations</h3>
+          <p>Connecting systems that don't naturally talk to each other, with reliability built in from the start.</p>
+          <div className="sc-v3-tags">
+            <span>REST API</span>
+            <span>Webhooks</span>
+            <span>Security</span>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div className="service-detail" data-reveal>
-      <div className="skill-icon">🛠️</div>
-      <div>
-        <h3>Make.com Automation</h3>
-        <p>Visual, scenario-based automations for teams that want flexibility without heavy custom code.</p>
-        <ul>
-          <li>Multi-step scenario building</li>
-          <li>Third-party app connections</li>
-          <li>Error-handling routes and filters</li>
-        </ul>
+      {/* Service 4 */}
+      <div className="sc-v3" data-reveal>
+        <div className="sc-v3-img" style={{backgroundImage: "url('https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?q=80&w=600&auto=format&fit=crop')"}}>
+          <div className="sc-v3-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div>
+        </div>
+        <div className="sc-v3-content">
+          <h3>Make.com Automation</h3>
+          <p>Visual, scenario-based automations for teams that want flexibility without heavy custom code.</p>
+          <div className="sc-v3-tags">
+            <span>Scenarios</span>
+            <span>Integrations</span>
+            <span>Make.com</span>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div className="service-detail" data-reveal>
-      <div className="skill-icon">💻</div>
-      <div>
-        <h3>React Development</h3>
-        <p>Responsive, maintainable web applications built with clean React code and modern best practices.</p>
-        <ul>
-          <li>Component-based, reusable UI architecture</li>
-          <li>Pixel-perfect Figma-to-code conversion</li>
-          <li>Fully responsive across devices</li>
-        </ul>
+      {/* Service 5 */}
+      <div className="sc-v3" data-reveal>
+        <div className="sc-v3-img" style={{backgroundImage: "url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=600&auto=format&fit=crop')"}}>
+          <div className="sc-v3-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        </div>
+        <div className="sc-v3-content">
+          <h3>React Development</h3>
+          <p>Responsive, maintainable web applications built with clean React code and modern best practices.</p>
+          <div className="sc-v3-tags">
+            <span>React</span>
+            <span>Next.js</span>
+            <span>Frontend</span>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div className="service-detail" data-reveal>
-      <div className="skill-icon">🧩</div>
-      <div>
-        <h3>PCF Component Development</h3>
-        <p>Custom Power Apps Component Framework controls, tailored to your app's exact needs and workflows.</p>
-        <ul>
-          <li>Custom UI controls for Power Apps / Dynamics</li>
-          <li>Seamless data-binding integration</li>
-          <li>Themed, brand-consistent components</li>
-        </ul>
+      {/* Service 6 */}
+      <div className="sc-v3" data-reveal>
+        <div className="sc-v3-img" style={{backgroundImage: "url('https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=600&auto=format&fit=crop')"}}>
+          <div className="sc-v3-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        </div>
+        <div className="sc-v3-content">
+          <h3>PCF Component Development</h3>
+          <p>Custom Power Apps Component Framework controls, tailored to your app's exact needs and workflows.</p>
+          <div className="sc-v3-tags">
+            <span>PCF</span>
+            <span>Power Apps</span>
+            <span>Custom UI</span>
+          </div>
+        </div>
       </div>
-    </div>
 
+    </div>
   </div>
 </section>
 
