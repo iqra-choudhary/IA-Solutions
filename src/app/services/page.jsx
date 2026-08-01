@@ -16,6 +16,11 @@ export default function Services() {
 
 <section className="section">
   <div className="wrap">
+    <div className="section-head text-center" data-reveal style={{ marginBottom: "50px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <div className="eyebrow" style={{ justifyContent: "center" }}><span style={{color: 'var(--pink)', marginRight: '8px'}}>•</span> WHAT WE OFFER</div>
+      <h2 style={{ fontSize: "42px", letterSpacing: "-1px" }}>Our Core <span>Services</span></h2>
+      <p style={{ maxWidth: "600px", margin: "16px auto 0", fontSize: "18px", color: "var(--text-soft)" }}>Custom automation flows and frontend solutions designed precisely for the way you work.</p>
+    </div>
     <div className="sg-v3">
       
       {/* Service 1 */}

@@ -4,7 +4,7 @@ import CalendlyButton from "./CalendlyButton";
 
 export default function Footer() {
   return (
-    <footer className="footer-main">
+    <footer className="footer-main" data-reveal>
       <div className="wrap footer-grid">
         {/* Brand Column */}
         <div className="footer-col footer-brand">

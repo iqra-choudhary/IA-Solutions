@@ -38,19 +38,19 @@ export default function Header() {
           className={`navlinks ${isOpen ? "is-open" : ""}`}
           id="primary-navigation"
         >
-          <Link href="/" className={pathname === "/" ? "active-link" : ""}>
+          <Link href="/" className={pathname === "/" ? "active-link" : ""} onClick={() => setIsOpen(false)}>
             Home
           </Link>
-          <Link href="/about" className={pathname === "/about" ? "active-link" : ""}>
+          <Link href="/about" className={pathname === "/about" ? "active-link" : ""} onClick={() => setIsOpen(false)}>
             About
           </Link>
-          <Link href="/services" className={pathname === "/services" ? "active-link" : ""}>
+          <Link href="/services" className={pathname === "/services" ? "active-link" : ""} onClick={() => setIsOpen(false)}>
             Services
           </Link>
-          <Link href="/projects" className={pathname === "/projects" ? "active-link" : ""}>
+          <Link href="/projects" className={pathname === "/projects" ? "active-link" : ""} onClick={() => setIsOpen(false)}>
             Projects
           </Link>
-          <Link href="/contact" className={pathname === "/contact" ? "active-link" : ""}>
+          <Link href="/contact" className={pathname === "/contact" ? "active-link" : ""} onClick={() => setIsOpen(false)}>
             Contact
           </Link>
         </div>
